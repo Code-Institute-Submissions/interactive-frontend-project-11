@@ -1,0 +1,39 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*-------------------------------------------Navbar */
+
+.navbar-brand{
+    font-family: "Pacifico", sans-serif;
+    color: black;
+}
+
+/*-------------------------------------------Welcome */
+.section {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Pacifico", sans-serif;
+    color: #ffffff;
+    z-index: 1;
+
+
+
+/*-------------------------------------------Containers */
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}

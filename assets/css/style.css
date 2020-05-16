@@ -6,14 +6,14 @@ body {
 
 .navbar-brand{
     font-family: "Pacifico", sans-serif;
-    color: black;
+    color: #000000;
 }
 
 /*-------------------------------------------Welcome */
 .section {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
     text-align: center;
     font-size: 6rem;
     font-family: "Pacifico", sans-serif;
-    color: #000000;
+    color: #ffffff;
     z-index: 1;
 }
 
@@ -42,21 +42,25 @@ body {
 footer {
     background-color: #fd0;;
     color: #000000;
-    min-height: 50px;
+    min-height: 3.125rem;
     margin: 0;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 20px 0;
-    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px 0;
+    border-radius: 10%;
     font-size: 21px;
     line-height: 7px;
     text-align: center;
-    color: #000000;
+    color: #006BB6;
 }
 
 #footer-details {
     padding: 15px;
+}
+
+.inline-block a {
+    color: #006BB6;
 }

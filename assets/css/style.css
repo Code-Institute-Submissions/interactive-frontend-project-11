@@ -28,6 +28,17 @@ body {
     z-index: 1;
 }
 
+/*-------------------------------------------Destination */
+
+.destination h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.destination h3 {
+    text-align: center;
+}
+
 /*-------------------------------------------Containers */
 
 .video-container {
@@ -35,6 +46,12 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.destination-container {
+    background-color: #1D428A;
+    color: #ffffff;
+    padding-bottom: 1.25rem;
 }
 
 /*-------------------------------------------Footer */
@@ -54,7 +71,7 @@ footer {
     font-size: 21px;
     line-height: 7px;
     text-align: center;
-    color: #006BB6;
+    color: #1D428A;
 }
 
 #footer-details {
@@ -62,5 +79,5 @@ footer {
 }
 
 .inline-block a {
-    color: #006BB6;
+    color: #1D428A;
 }

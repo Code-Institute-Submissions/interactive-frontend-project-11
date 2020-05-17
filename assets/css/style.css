@@ -54,6 +54,12 @@ body {
     padding-bottom: 1.25rem;
 }
 
+.newsletter-container {
+    align-items: center;
+    text-align: center;
+    color: #1D428A;
+}
+
 /*-------------------------------------------Footer */
 
 footer {
@@ -80,4 +86,39 @@ footer {
 
 .inline-block a {
     color: #1D428A;
+}
+
+/*-------------------------------------------Newsletter */
+
+.newsletter-heading {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #fd0;
+    color: #000000;
+}
+
+/*-------------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }

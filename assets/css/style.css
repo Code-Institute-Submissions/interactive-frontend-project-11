@@ -26,7 +26,6 @@ body h2 {
 
 .section h1 {
     text-align: center;
-    font-size: 6rem;
     font-family: "Pacifico", sans-serif;
     color: #ffffff;
     z-index: 1;
@@ -35,13 +34,28 @@ body h2 {
 /*-------------------------------------------Destination */
 
 .destination h2 {
-    text-align: center;
     font-weight: bold;
 }
 
-.destination h3 {
+.destination {
     text-align: center;
 }
+
+.destination i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 35px;
+}
+
+.destination h3 {
+    color: #ffffff;
+}
+
+.destination a:hover {
+    color: #fd0;
+}
+
+
 
 /*-------------------------------------------Containers */
 

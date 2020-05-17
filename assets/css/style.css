@@ -54,7 +54,7 @@ body {
     padding-bottom: 1.25rem;
 }
 
-.newsletter-container {
+.content-container {
     align-items: center;
     text-align: center;
     color: #1D428A;
@@ -88,9 +88,9 @@ footer {
     color: #1D428A;
 }
 
-/*-------------------------------------------Newsletter */
+/*-------------------------------------------Content*/
 
-.newsletter-heading {
+.content-heading {
     font-weight: bold;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -103,6 +103,8 @@ footer {
     margin: 0 auto;
     max-width: 70%;
 }
+
+/*-------------------------------------------Buttons */
 
 button[type="submit"] {
     margin-top: 15px;

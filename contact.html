@@ -27,31 +27,35 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="account.html">Account</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>    
         </nav>
     </header>
 <!-- /.navbar -->
 
-<!-- Newsletter -->
+<!-- Contact -->
     <section class="container-fluid">
             <div class="content-container">
                 <div class="col">
                     <div>
-                        <h3 class="content-heading">Subsribe to our Newsletter</h3>
-                        <h5>We promise we won't spam your inbox. Our newsletter is sent out once a month.</h5>
+                        <h3 class="content-heading">Have a Question?</h3>
+                        <h5>Let us know your question, whether big or small we can help you out.</h5>
+                        <h5>If you have a Booking Reference please ndicate it below, it helps us see the whole picture.</h5>
                     </div>
                     <div class="center-form">
                         <form>
+                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Enter your Full Name" required/>
+                            <input type="text" name="bookingref" class="form-control" id="bookingref" placeholder="Enter your Booking Reference" />
                             <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Enter your Email" required/>
-                            <button type="submit" class="btn btn-primary">Sign me up!</button>
+                            <textarea rows="5" name="question" class="form-control" id="question" placeholder="Tell us your Question" required></textarea>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
     </section>
-<!-- /.newsletter -->
+<!-- /.Contact-->
 
 
 <footer class="container-fluid"> 

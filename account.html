@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="account.html">Account</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="account.html">Account</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>    
@@ -34,24 +34,44 @@
     </header>
 <!-- /.navbar -->
 
-<!-- Newsletter -->
+<!-- Account -->
     <section class="container-fluid">
             <div class="content-container">
                 <div class="col">
                     <div>
-                        <h3 class="content-heading">Subsribe to our Newsletter</h3>
-                        <h5>We promise we won't spam your inbox. Our newsletter is sent out once a month.</h5>
+                        <h3 class="content-heading">Welcome back!</h3>
+                        <h5>We missed you! Sign back in to access your account.</h5>
                     </div>
                     <div class="center-form">
                         <form>
                             <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Enter your Email" required/>
-                            <button type="submit" class="btn btn-primary">Sign me up!</button>
+                            <input type="password" name="password" class="form-control" id="password" placeholder="Enter Password">
+                            <button type="submit" class="btn btn-primary">Login</button>
                         </form>
                     </div>
                 </div>
             </div>
     </section>
-<!-- /.newsletter -->
+    <section class="container-fluid">
+            <div class="content-container">
+                <div class="col">
+                    <div>
+                        <h3 class="content-heading">New around here?</h3>
+                        <h5>Fill in the form to register. Quick and easy. </h5>
+                    </div>
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="emailaddressRegister" class="form-control" id="emailaddressRegister" placeholder="Register your Email" required/>
+                            <input type="password" name="createpassword" class="form-control" id="createpassword" placeholder="Create your Password">
+                            <input type="password" name="confirmpassword" class="form-control" id="confirmpassword" placeholder="Confirm your Password">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+<!-- /.Account -->
 
 
 <footer class="container-fluid"> 

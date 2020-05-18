@@ -55,22 +55,6 @@ body h2 {
     color: #fd0;
 }
 
-/*-------------------------------------------Photo */
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
-    padding-bottom: 25px;
-} 
-
-
-#photo img {
-    width: 100%;
-} 
-
-
 /*-------------------------------------------Containers */
 
 .video-container {
@@ -169,6 +153,21 @@ button[type="submit"] {
     color: #000000;
 }
 
+/*-------------------------------------------Photo */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+    padding-bottom: 25px;
+} 
+
+
+#photo img {
+    width: 100%;
+} 
+
 /*-------------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -189,7 +188,7 @@ button[type="submit"] {
 }
 
 @media screen and (max-width:800px){
-    
+
     #photo {
         column-count: 1;
     }

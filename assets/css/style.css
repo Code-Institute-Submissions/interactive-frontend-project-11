@@ -55,6 +55,20 @@ body h2 {
     color: #fd0;
 }
 
+/*-------------------------------------------Photo */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+    padding-bottom: 25px;
+} 
+
+
+#photo img {
+    width: 100%;
+} 
 
 
 /*-------------------------------------------Containers */
@@ -83,6 +97,16 @@ body h2 {
 }
 
 .about-us-container h4 {
+    padding-bottom: 15px;
+}
+
+.choose-us-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.choose-us-container h4 {
     padding-bottom: 15px;
 }
 
@@ -154,5 +178,19 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
+}
+
+@media screen and (max-width:943px){
+
+    #photo {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width:800px){
+    
+    #photo {
+        column-count: 1;
     }
 }

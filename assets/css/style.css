@@ -186,10 +186,13 @@ button[type="submit"] {
     padding-bottom: 25px;
 } 
 
-
 .photo img {
     width: 100%;
 } 
+
+/*-------------------------------------------Maps */
+
+div#map-baguio {min-height: 360px;}
 
 /*-------------------------------------------Media Queries */
 

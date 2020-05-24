@@ -1,22 +1,20 @@
-/*-------------------------------------------Baguio */
-
 function initMap() {
-    var map = new google.maps.Map(document.getElementById("map-baguio"), {
-        zoom: 13,
+    var map = new google.maps.Map(document.getElementById("map-boracay"), {
+        zoom: 14,
         center: {
-            lat: 16.4023,
-            lng: 120.5960
+            lat: 11.9610,
+            lng: 121.9246
         }
     });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    // Camp John Hay, Mines View & Burnham Park
+    // Station 2 Hennan Resort and Spa, White Beach & Bulabog Beach
 
     var locations = [
-        { lat: 16.3970, lng: 120.6114 }, 
-        { lat: 16.4196, lng: 120.6279 },
-        { lat: 16.4114, lng: 120.5940 }
+        { lat: 11.9610, lng: 121.9246 }, 
+        { lat: 11.9524, lng: 121.9296 },
+        { lat: 11.9693, lng: 121.9273 }
     ];
 
     var markers = locations.map(function(location, i) {

@@ -15,10 +15,6 @@
     <script type="text/javascript">
         (function(){
         emailjs.init("user_mbmnU7DRKK7iXcMlR0OlJ");
-        emailjs.send("gmail", "travelverse", {
-                name: "Aaron",
-                notes: "The destination that I want is..."
-            });
         })();
     </script>
 </head>
@@ -54,7 +50,7 @@
                         <h5>If you have a Booking Reference please indicate it below, it helps us see the whole picture.</h5>
                     </div>
                     <div class="center-form">
-                        <form>
+                        <form onsubmit="return sendMail(this);">
                             <input type="text" name="name" class="form-control" id="fullname" placeholder="Enter your Full Name" required/>
                             <input type="text" name="bookingref" class="form-control" id="bookingref" placeholder="Enter your Booking Reference" />
                             <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Enter your Email" required/>
@@ -116,5 +112,6 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
 </body>    
 </html>

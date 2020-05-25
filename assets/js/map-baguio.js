@@ -1,9 +1,9 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map-baguio"), {
-        zoom: 13,
+        zoom: 18,
         center: {
-            lat: 16.4023,
-            lng: 120.5960
+            lat: 16.4089,
+            lng: 120.59992
         }
     });
 

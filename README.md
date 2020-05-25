@@ -30,11 +30,11 @@ Travelverse is a relatively new online business based in the Philippines opened 
  - HTML5
  - CSS3
  - JavaScript
- - jQuery
+ - [jQuery](https://jquery.com)
  - [Bootstrap v4.4.1](https://getbootstrap.com/)
-- [Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
-- Google Maps API
-- EmailJS
+ - [Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
+ - [Google Maps API](https://cloud.google.com/maps-platform/)
+ - [EmailJS]([https://www.emailjs.com/](https://www.emailjs.com/))
 
 ## UXD
 
@@ -51,20 +51,21 @@ Travelverse is a relatively new online business based in the Philippines opened 
 |	|Email/contact travel agency with questions or queries| 		|
 |	|Find out about travel information|		|
 |	|View social media sites|	|
-|	|Subscribe to news letter|	|
+|	|Subscribe to newsletter|	|
 
 **Scope**
 
 |Focus	|Functional Specification	|Content Requirements	|
 |:------------:|:------------:|:------------:|
 |Features	|Home	|Information about site/choose a destination	|
-|Future Features|Facilities	|Read about gym facilities	|
-|	|Destination page	|View information/pics/map of destination|
+|Future Features|Destination pages	|View information/photos/map of destination|
 |	|Account	|Sign in or sign up|
 |	|Contact Us|Send question by email|
 |	|Newsletter|Subscribe to newsletter|
 |	|Travel Advice|View latest travel advice|
 |	|Social Media|Access social media links|
+|	|Newsletter|Subscribe to newsletter|
+|	|Travel Advice|Access Government travel info|
 |	|~~Bookings~~|~~View current bookings~~|
 |	|~~Live chat~~|~~Chat live with an agent~~
 
@@ -74,17 +75,18 @@ Travelverse is a relatively new online business based in the Philippines opened 
 |:------------:|:------------:|:------------:|
 |Information Structure	|How to navigate the site	|Navigational Structure (Tree/Dashboard)	|
 |Groupings|Mobile- hamburger navigation|Home/Account/Contact|
-|	|Desktop/Tablet - navbar|Home - Travel Agency info & Choose your destination (Baguio/Boracay/Manila)	|	
-|	|	|Account - Sign in or sign up to personal account|
+|	|Desktop/Tablet - navbar|Home - Travel Agency info & Pick your destination (Baguio/Boracay/Manila)	|	
+|	|Links in Footer Section	|Account - Sign in or sign up to personal account|
 |	|	|Contact - Email queries or questions|
 |	|	|Baguio/Boracay/Manila - Destination info/packages |
+|	|	|Footer links - Social media sites, newsletter subscription & travel advice
 
 **Skeleton**
 
 |Focus	|Interaction Design	|Navigational Design|		|
 |:------------:|:------------:|:------------:|:------------:|
 |Presentation of information|[See Wireframe](https://github.com/anthonybguillermo/frontend-project/blob/master/frontend-project/wireframe/wireframe-vipergym.pdf)|Home >|Baguio|
-|User Navigation|Desktop/Tablet/Mobile - travel advice/social links in footer||Boracay|
+|User Navigation|Desktop/Tablet/Mobile - travel advice/newsletter/social links in footer||Boracay|
 |	|	|	|Manila	|
 |	|	|Account|	|
 |	|	|Contact	|	|
@@ -94,9 +96,10 @@ Travelverse is a relatively new online business based in the Philippines opened 
 |Focus	|Visual Design	|
 |:------------:|:------------:|
 |Look of finished product|	|
-|Colors and typography used|[Oxanium Font](https://fonts.googleapis.com/css?family=Oxanium&display=swap)	|
-|	|#66b933	|
-|	|#474140|
+|Colors and typography used|[Pacifico](https://fonts.google.com/specimen/Pacifico)	|
+|	|[Monsterrat](https://fonts.google.com/specimen/Montserrat)		|
+|	|#fd0|
+|	|#1D428A|
 
 ## Deployment
 
@@ -104,7 +107,7 @@ Travelverse is a relatively new online business based in the Philippines opened 
  - Scroll  down to "GitHub Pages"
  - Select master branch from drop down bar under "Sources"
  - Select "Save"
- - Project link: [Viper Gym](https://anthonybguillermo.github.io/frontend-project/)
+ - Project link: 
 
 ## Tests and Fixes
 
@@ -122,13 +125,13 @@ Adding a class in "Trainers" column to hide the text when on mobile.
 
 > class="col-12 col-lg-3 d-none d-sm-block"
 
-***Desktop/Tablet***
+***Desktop***
 Tested on Chrome desktop and tablet simulator
 
-***Desktop/Tablet Issue***
-There was a gap between the the "Hero Image" on the Home page and the "3 Step Plan" section. 
+***Desktop Issue***
+There was a margin on the right side of the video in index.html when the video was displayed on large screens
 
-***Desktop/Tablet Fix***
+***Desktop Fix***
 In "content-container" changed "margin-top" to "padding-top".
 
 > .content-container {
@@ -137,9 +140,8 @@ padding-bottom: 75px;
 }
 
 ## Media
-The photos used in this project were taken from [pxhere.com](pxhere.com)
-
-
+The photos used in this project were taken from [Unsplash]([https://unsplash.com/](https://unsplash.com/))
+The video used in this project were taken from [Pexels](https://www.pexels.com/)
 
 ## Acknowledgements
-Inspiration for this project was taken from [razer.com](razer.com) , [Mamba Sports Academy](https://mambasportsacademy.com/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).
+Inspiration for this project was taken from [Disney Cruise]([https://disneycruise.disney.go.com/](https://disneycruise.disney.go.com/)), [Cebu Pacific]([https://www.cebupacificair.com/](https://www.cebupacificair.com/)), [Golden State Warriors](https://www.nba.com/warriors/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).

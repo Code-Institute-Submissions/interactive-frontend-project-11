@@ -19,9 +19,9 @@ The data was to be presented in way that helps users achieve their goals and and
 
 Build a website for users to choose their next holiday destination (Travelverse) mainly using technologies such as HTML, CSS, JavaScript and as on option jQuery or other jQuery libraries or external APIs. The project may be started using wireframes, as taught in the UX lesson.
 
-Travelverse is a relatively new online business based in the Philippines opened 2 years ago. The following requirements were given by the travel agency after meeting with the client;
+Travelverse is a relatively new online business based in the Philippines opened 2 years ago. Currently only has three destinations to offer clients with three all inclusive packages. But is looking to expand in the future. The following requirements were given by the travel agency after meeting with the client;
 
- - Display information about the different cities that are potential holiday destinations.
+ - Display information about the three cities that are potential holiday destinations.
  - Allow users to select/search a destination and see a map with relevant attractions, accommodations and restaurants. 
  - Present the results in a way that is visually pleasing and user friendly.
 
@@ -85,7 +85,7 @@ Travelverse is a relatively new online business based in the Philippines opened 
 
 |Focus	|Interaction Design	|Navigational Design|		|
 |:------------:|:------------:|:------------:|:------------:|
-|Presentation of information|[See Wireframe](https://github.com/anthonybguillermo/frontend-project/blob/master/frontend-project/wireframe/wireframe-vipergym.pdf)|Home >|Baguio|
+|Presentation of information|[See Wireframe]()|Home >|Baguio|
 |User Navigation|Desktop/Tablet/Mobile - travel advice/newsletter/social links in footer||Boracay|
 |	|	|	|Manila	|
 |	|	|Account|	|
@@ -107,41 +107,57 @@ Travelverse is a relatively new online business based in the Philippines opened 
  - Scroll  down to "GitHub Pages"
  - Select master branch from drop down bar under "Sources"
  - Select "Save"
- - Project link: 
+ - Project link: [Travelverse]()
 
 ## Tests and Fixes
 
-HTML Validator Results
-CSS Validator Results
+[HTML Validator Results]()
+[CSS Validator Results]()
 
-**Mobile** 
-Tested on Chrome mobile simulator
+**Desktop/Tablet/Mobile** 
+Tested on Chrome desktop/tablet/mobile simulator
 
 ***Mobile Issue***
-In facilities page was overlapping/blocking navigation bar
+Navigation bar wasn't expanding in mobile view
 
 ***Mobile Fix***
-Adding a class in "Trainers" column to hide the text when on mobile.
+Added Bootstrap JavaScript Navigation bar links to all HTML pages 
 
-> class="col-12 col-lg-3 d-none d-sm-block"
+> script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"  crossorigin="anonymous" /script
+script  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"  crossorigin="anonymous" /script
 
-***Desktop***
-Tested on Chrome desktop and tablet simulator
+***Desktop/Tablet/Mobile Issue***
+Welcome class h1 text was not appearing on index.html page
 
-***Desktop Issue***
-There was a margin on the right side of the video in index.html when the video was displayed on large screens
+***Desktop/Tablet/Mobile Fix***
+In style.css added style z-index to h1 text in Welcome class
 
-***Desktop Fix***
-In "content-container" changed "margin-top" to "padding-top".
-
-> .content-container {
-padding-top: 75px;
-padding-bottom: 75px;
+>.welcome  h1 {
+text-align: center;
+font-family: "Pacifico", sans-serif;
+color: #ffffff;
+z-index: 1;
 }
 
+***Desktop/Tablet/Mobile Issue***
+In Google Map API marker cluster was not appearing in map
+
+***Desktop/Tablet/Mobile Fix***
+Located correct script code in order for marker cluster to load
+
+>script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js" /script
+script  async  defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVwmQTEowqoN8j79GvEbutBT4Bki5Nci8&callback=initMap" /script
+
+***Desktop Issue***
+There was a margin on the right side of the video in index.html when the video on displayed on large screens
+
+***Desktop Fix***
+Welcome section in index.html "container-fluid" was removed.
+
 ## Media
-The photos used in this project were taken from [Unsplash]([https://unsplash.com/](https://unsplash.com/))
-The video used in this project were taken from [Pexels](https://www.pexels.com/)
+The photos used in this project was taken from [Unsplash](https://unsplash.com/).
+The video used in this project was taken from [Pexels](https://www.pexels.com/).
+Some of the text in this project was taken from [Google](https://google.com). 
 
 ## Acknowledgements
-Inspiration for this project was taken from [Disney Cruise]([https://disneycruise.disney.go.com/](https://disneycruise.disney.go.com/)), [Cebu Pacific]([https://www.cebupacificair.com/](https://www.cebupacificair.com/)), [Golden State Warriors](https://www.nba.com/warriors/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).
+Inspiration for this project was taken from [Disney Cruise](https://disneycruise.disney.go.com/), [Cebu Pacific](https://www.cebupacificair.com/), [Golden State Warriors](https://www.nba.com/warriors/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).

@@ -65,8 +65,6 @@ Travelverse is a relatively new online business based in the Philippines opened 
 |	|Newsletter|Subscribe to newsletter|
 |	|Travel Advice|View latest travel advice|
 |	|Social Media|Access social media links|
-|	|Newsletter|Subscribe to newsletter|
-|	|Travel Advice|Access Government travel info|
 |	|~~Bookings~~|~~View current bookings~~|
 |	|~~Live chat~~|~~Chat live with an agent~~
 
@@ -177,3 +175,4 @@ Some of the text in this project was taken from [Google](https://google.com).
 
 ## Acknowledgements
 Inspiration for this project was taken from [Disney Cruise](https://disneycruise.disney.go.com/), [Cebu Pacific](https://www.cebupacificair.com/), [Golden State Warriors](https://www.nba.com/warriors/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).
+              

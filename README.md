@@ -35,7 +35,7 @@ Travelverse is a relatively new online business based in the Philippines opened 
  - [Bootstrap v4.4.1](https://getbootstrap.com/)
  - [Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
  - [Google Maps API](https://cloud.google.com/maps-platform/)
- - [EmailJS](https://www.emailjs.com/))
+ - [EmailJS](https://www.emailjs.com/)
 
 ## UXD
 

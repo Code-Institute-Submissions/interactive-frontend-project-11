@@ -84,7 +84,7 @@ Travelverse is a relatively new online business based in the Philippines opened 
 
 |Focus	|Interaction Design	|Navigational Design|		|
 |:------------:|:------------:|:------------:|:------------:|
-|Presentation of information|[See Wireframe]()|Home >|Baguio|
+|Presentation of information|[See Wireframe](https://github.com/anthonybguillermo/interactive-frontend-project/blob/master/wireframe/wireframe-travelverse.pdf)|Home >|Baguio|
 |User Navigation|Desktop/Tablet/Mobile - travel advice/newsletter/social links in footer||Boracay|
 |	|	|	|Manila	|
 |	|	|Account|	|

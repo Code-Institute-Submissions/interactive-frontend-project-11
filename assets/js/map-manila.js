@@ -2,14 +2,14 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById("map-manila"), {
         zoom: 13,
         center: {
-            lat: 14.5536,
-            lng: 120.9802
+            lat: 14.5651,
+            lng: 120.9885
         }
     });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    // Seascape Village, SM Mall of Asia & Manila Ocean Park
+    // Sofitel, SM Mall of Asia & Manila Ocean Park
 
     var locations = [
         { lat: 14.5512, lng: 120.9811 }, 

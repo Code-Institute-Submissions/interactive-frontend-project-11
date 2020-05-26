@@ -195,6 +195,10 @@ div#map-boracay {min-height: 360px;}
 
 div#map-manila {min-height: 360px;}
 
+.map-baguio h4 {
+    padding-top: 15px;
+}
+
 /*-------------------------------------------Media Queries */
 
 @media(min-width: 992px) {

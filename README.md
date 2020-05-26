@@ -1,3 +1,4 @@
+
 # Interactive Frontend Milestone Project - Travelverse
 
 *Developer: Anthony Guillermo*
@@ -125,6 +126,21 @@ Added Bootstrap JavaScript Navigation bar links to all HTML pages
 
 > script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"  crossorigin="anonymous" /script
 script  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"  crossorigin="anonymous" /script
+
+***Tablet/Mobile Issue***
+Position of photos on site were not visually pleasing on tablet and mobile appearing on one line
+
+***Tablet/Mobile Fix***
+Added Media Queries for photos to load as columns on tablet and mobile screens
+
+>@media  screen and (max-width:943px){
+.photo {
+column-count: 3}
+}
+@media  screen and (max-width:800px){
+.photo {
+column-count: 1;}
+}
 
 ***Desktop/Tablet/Mobile Issue***
 Welcome class h1 text was not appearing on index.html page

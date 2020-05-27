@@ -106,7 +106,7 @@ Travelverse is a relatively new online business based in the Philippines opened 
  - Scroll  down to "GitHub Pages"
  - Select master branch from drop down bar under "Sources"
  - Select "Save"
- - Project link: [Travelverse]()
+ - Project link: [Travelverse](https://anthonybguillermo.github.io/interactive-frontend-project/)
 
 ## Tests and Fixes
 

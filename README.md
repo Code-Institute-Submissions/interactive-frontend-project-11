@@ -110,8 +110,8 @@ Travelverse is a relatively new online business based in the Philippines opened 
 
 ## Tests and Fixes
 
-[HTML Validator Results]()
-[CSS Validator Results]()
+[HTML Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanthonybguillermo.github.io%2Finteractive-frontend-project%2F)
+[CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanthonybguillermo.github.io%2Finteractive-frontend-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 **Desktop/Tablet/Mobile** 
 Tested on Chrome desktop/tablet/mobile simulator
